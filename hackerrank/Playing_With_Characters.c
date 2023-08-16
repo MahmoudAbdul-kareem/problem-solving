@@ -1,8 +1,8 @@
 /**                       Documentation section
  =========================================================================
-  @name           : problem_name               <<<<<<
+  @name           : Playing With Characters
   @author         : MahmoudAbdul-kareem
-  @link           :                            <<<<<<
+  @link           : https://www.hackerrank.com/challenges/playing-with-characters/problem?isFullScreen=true&h_r=next-challenge&h_v=zen
  =========================================================================
  */
 
@@ -32,6 +32,19 @@ void file();
 
 int main()
 {
+    char ch = '\0';
+    char s[100] = "";
+    char sen[100] = "";
+    
+    scanf("%c", &ch);
+    scanf("\n");
+    scanf("%[^\n]%*c", s);
+    scanf("\n");
+    scanf("%[^\n]%*c", sen);
+    
+    printf("%c \n", ch);
+    printf("%s \n", s);
+    printf("%s \n", sen);
     
     return 0;
 }

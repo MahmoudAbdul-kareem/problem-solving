@@ -3,14 +3,14 @@
 	"tasks": [
 		{
 			"type": "shell",
-			"label": "EmbeddedDiploma_GCC",
+			"label": "PS_GCC",
 			"command": "/usr/bin/gcc",
 			"args": [
 				"-fdiagnostics-color=always",
 				"-g",
 				"${workspaceFolder}/*.c",
 				"-o",
-				"${fileDirname}/embeddedDiploma.exe"
+				"${fileDirname}/ps.exe"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
@@ -21,7 +21,7 @@
 		},
 		{
 			"type": "shell",
-			"label": "EmbeddedDiploma_CLANG",
+			"label": "PS_CLANG",
 			"command": "/usr/bin/clang",
 			"args": [
 				"-fcolor-diagnostics",
@@ -29,7 +29,7 @@
 				"-g",
 				"${workspaceFolder}/*.c",
 				"-o",
-				"${fileDirname}/embeddedDiploma.exe"
+				"${fileDirname}/ps.exe"
 			],
 			"options": {
 				"cwd": "${fileDirname}"

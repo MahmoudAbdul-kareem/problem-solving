@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}/embeddedDiploma.exe",
+            "program": "${fileDirname}/ps.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
@@ -23,7 +23,7 @@
                     "ignoreFailures": true
                   }
             ],
-            "preLaunchTask": "EmbeddedDiploma_GCC"
+            "preLaunchTask": "PS_GCC"
         }
     ]
 }

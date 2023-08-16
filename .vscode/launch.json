@@ -23,7 +23,7 @@
                     "ignoreFailures": true
                   }
             ],
-            "preLaunchTask": "EmbeddedDiploma_GCC"
+            "preLaunchTask": "PS_GCC"
         }
     ]
 }

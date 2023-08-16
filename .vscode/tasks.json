@@ -3,7 +3,7 @@
 	"tasks": [
 		{
 			"type": "shell",
-			"label": "EmbeddedDiploma_GCC",
+			"label": "PS_GCC",
 			"command": "/usr/bin/gcc",
 			"args": [
 				"-fdiagnostics-color=always",
@@ -21,7 +21,7 @@
 		},
 		{
 			"type": "shell",
-			"label": "EmbeddedDiploma_CLANG",
+			"label": "PS_CLANG",
 			"command": "/usr/bin/clang",
 			"args": [
 				"-fcolor-diagnostics",
