@@ -8,9 +8,9 @@
 			"args": [
 				"-fdiagnostics-color=always",
 				"-g",
-				"${workspaceFolder}/*.c",
+				"${file}",
 				"-o",
-				"${fileDirname}/embeddedDiploma.exe"
+				"${fileDirname}/ps.exe"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
@@ -27,9 +27,9 @@
 				"-fcolor-diagnostics",
 				"-fansi-escape-codes",
 				"-g",
-				"${workspaceFolder}/*.c",
+				"${file}",
 				"-o",
-				"${fileDirname}/embeddedDiploma.exe"
+				"${fileDirname}/ps.exe"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
