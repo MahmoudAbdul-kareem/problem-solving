@@ -1,8 +1,8 @@
 /**                       Documentation section
  =========================================================================
-  @file           : file_name.c                <<<<<<
+  @name           : "Hello World!" in C
   @author         : MahmoudAbdul-kareem
-  @link           :                            <<<<<<
+  @link           : https://www.hackerrank.com/challenges/hello-world-c/problem?isFullScreen=true
  =========================================================================
  */
 
@@ -32,7 +32,10 @@ void file();
 
 int main()
 {
-    printf("Hello! \n");
+    char s[100];
+    scanf("%[^\n]%*c", &s);
+  	printf("Hello, World! \n");
+    printf("%s\n", s);
     
     return 0;
 }
