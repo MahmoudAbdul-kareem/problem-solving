@@ -1,8 +1,8 @@
 /**                       Documentation section
 ==========================================================================
-  @name           : problem_name               <<<<<<
+  @name           : hollow rectangle
   @author         : MahmoudAbdul-kareem
-  @link           :                            <<<<<<
+  @link           : https://www.faceprep.in/c/pattern-programs-in-c/
 ==========================================================================
 */
 
@@ -32,6 +32,31 @@ void file();
 
 int main()
 {
+    unsigned int x = 0, y = 0;
+    unsigned int x_index = 0, y_index = 0;
+    printf("enter x and y dimentions: \n");
+    scanf("%u%u", &x, &y);
+
+    for(y_index = 1; y_index <= y; y_index++)
+    {
+        for(x_index = 1; x_index <= x; x_index++)
+        {
+            if(1 == y_index | y == y_index)
+            {
+                printf("* ");
+            }
+            else if(1 == x_index | x == x_index)
+            {
+                printf("* ");
+            }
+            else
+            {
+                printf("  ");
+            }
+        }
+        printf("\n");
+    }
+
     
     return 0;
 }
