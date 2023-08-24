@@ -38,7 +38,7 @@ int main()
     scanf("%u", &row);
     printf("Enter columns number: ");
     scanf("%u", &col);
-    
+
     hollow_rectangle(row, col);
 
     return 0;
@@ -59,11 +59,7 @@ void hollow_rectangle(unsigned int y, unsigned int x)
     {
         for(x_index = 1; x_index <= x; x_index++)
         {
-            if(1 == y_index | y == y_index)
-            {
-                printf("* ");
-            }
-            else if(1 == x_index | x == x_index)
+            if(1 == x_index | x == x_index | 1 == y_index | y == y_index)
             {
                 printf("* ");
             }
