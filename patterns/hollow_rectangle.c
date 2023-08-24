@@ -27,15 +27,33 @@
 
 // prototypes:
 void file();
+void hollow_rectangle(unsigned int x, unsigned int y);
 /* ~~~~~~~~~~~~~~~~~~ Global Decleration Section End ~~~~~~~~~~~~~~~~~~ */
 
 
 int main()
 {
-    unsigned int x = 0, y = 0;
+    unsigned int row = 0, col = 0;
+    printf("Enter rows number: ");
+    scanf("%u", &row);
+    printf("Enter columns number: ");
+    scanf("%u", &col);
+    
+    hollow_rectangle(row, col);
+
+    return 0;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~ Sub-Program Section Start ~~~~~~~~~~~~~~~~~~~~~ */
+void file()
+{
+    // freopen("input.txt", "rt", stdin);  // give input to terminal
+    freopen("output.txt", "wt", stdout);
+}
+void hollow_rectangle(unsigned int y, unsigned int x)
+{
     unsigned int x_index = 0, y_index = 0;
-    printf("enter x and y dimentions: \n");
-    scanf("%u%u", &x, &y);
 
     for(y_index = 1; y_index <= y; y_index++)
     {
@@ -56,16 +74,5 @@ int main()
         }
         printf("\n");
     }
-
-    
-    return 0;
-}
-
-
-/* ~~~~~~~~~~~~~~~~~~~~ Sub-Program Section Start ~~~~~~~~~~~~~~~~~~~~~ */
-void file()
-{
-    // freopen("input.txt", "rt", stdin);  // give input to terminal
-    freopen("output.txt", "wt", stdout);
 }
 /* ~~~~~~~~~~~~~~~~~~~~~ Sub-Program Section End ~~~~~~~~~~~~~~~~~~~~~~ */
