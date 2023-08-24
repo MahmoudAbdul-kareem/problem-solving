@@ -56,7 +56,7 @@ void hollow_inverted_half_pyramid(unsigned int n){
     {
         for(x_index = 0; x_index < (n - y_index); x_index++)
         {
-            if(0 == x_index | (n - y_index - 1) == x_index | 0 == y_index)
+            if(0 == x_index || (n - y_index - 1) == x_index || 0 == y_index)
             {
                 printf("*");
             }
