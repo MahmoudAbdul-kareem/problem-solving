@@ -1,4 +1,4 @@
 https://codeforwin.org/c-programming/bitwise-operator-programming-exercises-and-solutions-in-c
 
 >> functions
->> bitwise
+>> bitwise     (start from problem number 7)
